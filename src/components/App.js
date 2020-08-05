@@ -21,7 +21,7 @@ const App = ({ currentUser, currentChannel, isPrivateChannel, userPosts, primary
       primaryColor={primaryColor}
     />
 
-    <Grid.Column style={{ marginLeft: 320 }}>
+    <Grid.Column style={{ marginLeft: 350 }}>
       <Messages
         key={currentChannel && currentChannel.id}
         currentChannel={currentChannel}

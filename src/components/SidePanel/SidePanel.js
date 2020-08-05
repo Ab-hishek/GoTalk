@@ -12,11 +12,11 @@ class SidePanel extends React.Component {
 
     return (
       <Menu
-        size="large"
+        size="big"
         inverted
         fixed="left"
         vertical
-        style={{ background: primaryColor, fontSize: "1.2rem" }}
+        style={{ background: primaryColor, fontSize: "1.2rem", "overflow-y": "auto" }}
       >
         <UserPanel primaryColor={primaryColor} currentUser={currentUser} />
         <Starred currentUser={currentUser} />
