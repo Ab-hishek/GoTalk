@@ -39,7 +39,7 @@ class Root extends React.Component {
   }
 
   render() {
-    return this.props.isLoading ? (
+    return  this.props.isLoading ? (
       <Spinner />
     ) : (
       <Switch>
